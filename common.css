@@ -1,0 +1,30 @@
+.Title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.subtitle {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.Home:hover {
+    background-color: blue;
+}
+
+.Contact:hover {
+    background-color: blue;
+}
+
+.Experiences:hover {
+    background-color: blue;
+}
