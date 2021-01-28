@@ -1,0 +1,32 @@
+.flex1 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 20px;
+}
+
+.part1 {
+    border-right: outset;
+    border-right-width: 2px;
+    border-left-width: 5px;
+}
+
+.part2 {
+    border-left: outset;
+    border-left-width: 2px;
+    border-right-width: 5px;
+}
+
+.part1,
+.part2 {
+    border-style: outset;
+    border-color: grey;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+}
+
+.part1:hover,
+.part2:hover {
+    background-color: seashell;
+    border-width: 10px;
+}
