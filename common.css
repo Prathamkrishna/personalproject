@@ -1,30 +1,144 @@
-.Title {
-    text-align: center;
-    font-weight: bold;
+.title {
+    text-align: left;
     font-size: 22px;
 }
 
 .subtitle {
-    text-align: center;
+    text-align: left;
     font-weight: lighter;
-    font-size: 30px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.whole {
+    background-color: blue;
+}
+
+.text {
+    color: white;
 }
 
 .flex {
     display: flex;
     justify-content: space-between;
     font-weight: bold;
+    color: white;
 }
 
-.Home:hover {
-    background-color: blue;
+.flex1 {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: white;
+    margin-right: 220px;
+    margin-left: 160px;
 }
 
-.Contact:hover {
-    background-color: blue;
+.part1 {
+    border-right: outset;
+    border-right-width: 1px;
+    border-left-width: 3px;
 }
 
-.Experiences:hover {
-    background-color: blue;
+.part2 {
+    border-left: outset;
+    border-left-width: 1px;
+    border-right-width: 3px;
+}
+
+.part1,
+.part2 {
+    border-style: ridge;
+    border-color: white;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+}
+
+.part1:hover,
+.part2:hover {
+    background-color: white;
+    border-width: 5px;
+    color: red;
+}
+
+.Content {
+    color: white;
+}
+
+.two {
+    color: white;
+}
+
+.two:hover {
+    background-color: white;
+    color: red;
+}
+
+.mycontact {
+    text-align: center;
+}
+
+.one {
+    border: 2px solid white;
+    margin: 5px;
+    color: white;
+    border-radius: 5px;
+}
+
+.one:hover {
+    border: 5px solid white;
+    background-color: white;
+    color: red;
+    border-radius: 5px;
+}
+
+.three {
+    color: white;
+}
+
+.three:hover {
+    color: red;
+    background-color: white;
+}
+
+.footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.footer1 {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.footer2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+.footer3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text12 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text22 {
+    margin-left: 1px;
+    text-align: left;
 }

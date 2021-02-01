@@ -9,3 +9,95 @@ YouTube : <a href="https://www.youtube.com/channel/UCfkny3ccbpadisVQ0-k7YVQ">The
         <br> Github : <a href="https://www.github.com/Prathamkrishna">Pratham Krishna</a>
 
 Apply float to the hover links in the header section.
+
+change colors of experiences sections.
+
+main body text :
+ <body>
+        <div class="word1">
+            <h1>HOME</h1>
+            <br>
+            <div class="img">
+                <img src="home.png" height="1260px" width="1260px">
+            </div>
+        </div>
+        <hr style="height: 30px; background-color: black; color:black">
+        <div class="word1">
+            <br>
+            <div class="text1">
+                <div class="text11">
+                    <h2>WHO AM I?</h2>
+                </div>
+
+                <div class="text12">
+                    MY NAME IS <b>PRATHAM KRISHNA</b>. I AM A FIRST YEAR UNIVERSITY STUDENT AND I TRAVEL ON MY MOTORCYCLE.<br>I DON'T LIMIT THESE EXPERIENCES TO JUST MOTORCYCLE OUTVENTURES BUT ALSO TO OTHER MODES OF <br> TRAVELLING AND I OFTEN RECORD
+                    THESE ADVENTURES AND CREATE MOTOVLOGS. I ALSO TAKE PART IN VARIOUS<br> TECHNICAL HACKATHONS AND I'M A KEEN DEVELOPER, GRINDING ON SKILLS; DAY IN AND DAY OUT.
+                </div>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <div class="text1">
+                <div class="text22">
+                    <br><br><br>
+                    <h4>PEOPLE ALWAYS ASK ME: "WHY DO YOU PREFER TRAVELLING ON A MOTORCYCLE AND NOT TAKE THE COMFORT OF FLIGHTS?"
+                        <br> <br> <br><br>- I ALWAYS SHOW THEM A FEW PHOTOS I CLICKED ON MY TRIPS AND I SAY "THIS IS SOMETHING YOU DON'T SEE WHEN YOU TRAVEL BY FLIGHT." <br><br><br>- I TALK TO THEM ABOUT THE OFFROAD ADVENTURES I OFTEN ENCOUNTER ON MY
+                        WAY.
+                        <br><br><br>- AND ONE OTHER MAJOR ADVANTAGE IS THAT I CAN STRAY AWAY FROM MY ORIGNALLY PLANNED ROUTE AND EXPLORE MORE.
+                    </h4>
+                </div>
+                <div class="text21">
+                    <img src="IMG_1007.jpg" width="620px" height="400px">
+                </div>
+            </div>
+        </div>
+        <hr style="height: 30px; background-color: black; color:black">
+        <div class="word2">
+            <div class="text1">
+                <div class="type1">
+                    States travelled
+                    <hr style="background-color: black; height: 3px;"> 6
+                </div>
+                <div class="type2">
+                    Distance covered
+                    <hr style="background-color: black; height: 3px;"> 5500kms+
+                </div>
+                <div class="type1">
+                    Days spent
+                    <hr style="background-color: black; height: 3px;"> 10
+                </div>
+                <div class="type2">
+                    Tours been on
+                    <hr style="background-color: black; height: 3px;"> 3
+                </div>
+            </div>
+        </div>
+        <hr style="height: 30px; background-color: black; color:black">
+    </body>
+
+    <!-- end of first body-->
+    <!-- start of second part of body i.e youtube link-->
+
+    <body>
+        <div class="word1">
+            <div class="type3">
+                <h2>MY LATEST YOUTUBE VIDEO!</h2>
+                <br>
+                <iframe width="520" height="315" src="https://www.youtube.com/embed/u4UC9NepJhI">
+            </iframe>
+            </div>
+        </div>
+    </body>
+
+<div class="flex">
+        <div class="Home">
+            <a style="text-decoration: none; color: black" href="index.html">HOME</a>
+        </div>
+        <div class="Experiences">
+            <a style="color: black; text-decoration: none" href="Experiences.html">EXPERIENCES</a>
+        </div>
+        <div class="Contact">
+            <a style="color: black; text-decoration: none" href="Contact.html">CONTACT</a>
+        </div>
+    </div>
+    <hr style="height: 1px; background-color: black; color:black">
