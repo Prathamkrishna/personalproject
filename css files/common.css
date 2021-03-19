@@ -60,6 +60,13 @@
     border-bottom-width: 3px;
 }
 
+.part1:hover,
+.part2:hover {
+    background-color:black;
+    border-width: 5px;
+    
+}
+
 .three {
     color: white;
 }
@@ -68,12 +75,6 @@
     color: red;
 }
 
-.part1:hover,
-.part2:hover {
-    background-color: white;
-    border-width: 5px;
-    color: black;
-}
 
 .Content {
     color: white;
